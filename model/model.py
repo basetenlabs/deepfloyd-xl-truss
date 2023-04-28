@@ -94,6 +94,7 @@ class Model:
         """
         Load all required models.
         """
+        self.login()
         self.load_text_encoder()
         self.load_deepfloyd_first_stage_pipeline()
         self.load_deepfloyd_second_stage_pipeline()
