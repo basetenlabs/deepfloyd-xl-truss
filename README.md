@@ -60,8 +60,8 @@ The result will be a dictionary containing:
 ## Example
 
 ```
-curl -X POST https://app.staging.baseten.co/models/EqwKvqa/predict \
-  -H 'Authorization: Api-Key fs8S62Qy.7YtQSzoCJKjQeI6L7VvdFFCLZu3CTt7d' \
+curl -X POST https://app.staging.baseten.co/models/{MODEL_ID}/predict \
+  -H 'Authorization: Api-Key {YOUR_API_KEY}' \
   -d '{"prompt": "maan on moon"}'
 {"model_id": "EqwKvqa", "model_version_id": "yqvx0rw", "model_output": {"status": "success", "data": ["/9j/4AAQSkZJRgABAQAAAQABAA...."], "message": null}}
 ```
