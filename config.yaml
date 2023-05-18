@@ -8,7 +8,8 @@ model_class_filename: model.py
 model_class_name: Model
 model_framework: custom
 model_metadata:
-  pretty_name: Deepfloyd XL
+  avatar_url: https://cdn.baseten.co/production/static/explore/deep-floyd.png
+  cover_image_url: https://cdn.baseten.co/production/static/explore/deepfloyd-cover.png
   tags:
   - image-generation
 model_module_dir: model
