@@ -1,3 +1,5 @@
+[![Deploy to Baseten](https://user-images.githubusercontent.com/2389286/236301770-16f46d4f-4e23-4db5-9462-f578ec31e751.svg)](https://app.baseten.co/explore/deepfloyd)
+
 # DeepFloyd XL Truss
 
 This is a [Truss](https://truss.baseten.co/) for DeepFloyd-IF. DeepFloyd-IF is a pixel-based text-to-image triple-cascaded diffusion model that can generate pictures and sets a new state-of-the-art for photorealism and language understanding. The result is a highly efficient model that outperforms current state-of-the-art models, achieving a zero-shot FID-30K score of 6.66 on the COCO dataset.
